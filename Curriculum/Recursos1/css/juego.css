@@ -1,0 +1,82 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/pokemon2.jpg) 
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: white;
+  opacity:0.90;
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 0s;
+
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.col-60{
+  background-color:#2808cc;
+  width:606px;
+  height:606px;
+}
+img{
+  width:200px;
+  height:200px;
+  float: left;
+  border:1px solid #3e46e0;
+}
+.pieza{
+  width:200px;
+  height:200px;
+  float: left;
+  border:1px solid #3e46e0;
+}
+
+#titulo h1{
+  color:white;
+  font-family: 'Noto Serif', serif;
+  font-size:24px;
+  background-color:#2808cc;
+  margin:2px auto;
+  text-align:center;
+
+}
+.instrucciones3{
+font-family: 'Oswald', sans-serif;
+
+}
+#instrucciones{
+  color:#2808cc;
+  font-family: 'Oswald', sans-serif;
+  font-size:18px;
+  border-bottom: 1px solid #2808cc;
+}
